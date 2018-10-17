@@ -1,0 +1,135 @@
+<!--"!"+Tab就會跑出以下，lang要改、title是瀏覽器名字也要改-->
+<!-- ctrl+/就會跑出這個 -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>快速鍵練習2018/10/10</title>
+
+    <!-- 引用CSS樣板 link然後選CSS-->
+    <link rel="stylesheet" href="./CSS樣板/index.css">
+</head>
+
+<body>
+    <h1>標題</h1>
+
+    <p>haha he is an <del>idiot</del></p>
+
+    <!-- a+Tab -->
+    <a href=""></a>
+
+    <!-- a[href=網址]{內容} -->
+    <a href="http://www.google.com">google</a>
+    <!-- a[href=網址 target=_blank]{內容} -->
+    <a href="http:www.facebook.com" target="_blank">facebook</a>
+
+    <!-- a然後往下移 -->
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">lala</a>
+
+    <!-- img+Tab src alt -->
+    <img src="https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google">
+
+    <!-- 圖片+超連結 -->
+    <!-- 用a底下img-->
+    <!-- a[href=網址]>img[src=圖片位置] -->
+    <a href="http://www.google.com" target=_blank><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt=""></a>
+
+    <!-- 相對路徑的圖檔 -->
+    <!-- .代表同一層 /代表下一層 -->
+    <a href="http://www.google.com" target=_blank><img src="./images/google.png" alt=""></a>
+    <a href="http://www.google.com" target=_blank><img src="./images/lala.jpg" alt=""></a>
+
+    <br>
+
+    <!-- ul:無排序 ol有排序 -->
+    <ul type="square">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <ol type="i">
+        <li>A</li>
+        <li>B</li>
+    </ol>
+    <br>
+
+    <!-- 表格table -->
+    <!-- table>(tr>th*4)+(tr>td*4)*4 -->
+
+    <table>
+        <tr>
+            <!--這裡指上方的欄位 -->
+            <th>班級</th>
+            <th>姓名</th>
+            <th>學號</th>
+            <th>分數</th>
+        </tr>
+        <tr>
+            <!-- 第一行 -->
+            <td>A</td>
+            <td>小名</td>
+            <td>001</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <!-- 第二行 -->
+            <td>A</td>
+            <td>小華</td>
+            <td>002</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <!-- 第三行 -->
+            <td>B</td>
+            <td>老李</td>
+            <td>003</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <!-- 第四行 -->
+            <td>B</td>
+            <td>老劉</td>
+            <td>004</td>
+            <td>40</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="http://www.google.com" target=_blank><img src="./images/google.png" alt=""></a>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
