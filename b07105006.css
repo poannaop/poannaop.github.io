@@ -1,0 +1,29 @@
+table,
+td,
+tr,
+th {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    border-color: #ddb484;
+    border-radius: 3px;
+    text-align: center
+}
+
+tr:nth-child(2n+1) {
+    background-color: aliceblue
+}
+
+a:hover {
+    color: aqua;
+    background-color: blanchedalmond
+}
+
+a {
+    text-decoration: none;
+    background-color: #c9c9ef;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-style: solid;
+    border-color: #4CAF50;
+}
